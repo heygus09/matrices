@@ -1,0 +1,7952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #306998</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>711</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Suma</string>
+    </attribute>
+    <widget class="QLineEdit" name="txt_A00">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Limpiar">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A01">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A02">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A12">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A11">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A10">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A22">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A21">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_A20">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B22">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B20">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B12">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz B</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B02">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B01">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B10">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B21">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B00">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_B11">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>290</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz AB </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB00">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB01">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB02">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB10">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB11">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB12">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB20">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB21">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_AB22">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Sumar">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Sumar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Diseño sin título.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>310</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>180</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>mas.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Resta</string>
+    </attribute>
+    <widget class="QLineEdit" name="txt_a11">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a02">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b01">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab00">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a00">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a22">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b20">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_24">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab20">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a01">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab12">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab10">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab21">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b02">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab11">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab02">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b12">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b10">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab01">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b21">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_ab22">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a21">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a20">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>180</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>signo-menos-de-una-linea-en-posicion-horizontal.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a10">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b11">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>290</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz AB </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Suma de Matrices.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_26">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>310</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_a12">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b00">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_b22">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Restar">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Restar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar2">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);;</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Multiplicacion</string>
+    </attribute>
+    <widget class="QLineEdit" name="txt_ma02">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb01">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm00">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma00">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma22">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb20">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm20">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma01">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm12">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>310</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm10">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm21">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb02">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm11">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb12">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm02">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb10">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm01">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb21">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_abm22">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>390</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma21">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma20">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_34">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>180</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>simbolo-de-multiplicacion.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma10">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb11">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_35">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>290</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz AB </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb00">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma12">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_mb22">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_37">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>310</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ma11">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Multiplicar">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Multiplicar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_65">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Suma de Matrices (1).png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Transpuesta</string>
+    </attribute>
+    <widget class="QLabel" name="label_38">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta21">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta02">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta20">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_39">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_40">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta11">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta00">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta01">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_ta22">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>transpuesta.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Transpuesta">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_2">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at10">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at20">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at21">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_42">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>140</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz AT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at00">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at22">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at12">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at01">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at02">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_at11">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_44">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Determinante</string>
+    </attribute>
+    <widget class="QLabel" name="label_45">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da20">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da10">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da21">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da12">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_46">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da00">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Determinante">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da01">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_47">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da22">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_48">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Suma de Matrices (2).png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da02">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_da11">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_3">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_49">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>310</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>|A| = DP - DS</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_50">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>350</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>|A| =</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_determinante">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>360</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Adjunta</string>
+    </attribute>
+    <widget class="QLabel" name="label_57">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma22">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj01">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj12">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj00">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma21">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma11">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj11">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_56">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Suma de Matrices (4).png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj20">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma02">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma20">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma01">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_55">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_4">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj22">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_51">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>140</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz ADJ</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_52">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj02">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma00">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_53">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj10">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_54">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_adj21">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Adjunta">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ma12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Inversa</string>
+    </attribute>
+    <widget class="QLineEdit" name="txt_Ia22">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv01">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv12">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv00">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia21">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia11">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv11">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_58">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Suma de Matrices (3).png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_59">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia02">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv20">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia20">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>240</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia01">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_60">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_5">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv22">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_61">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>140</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A-1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_62">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>130</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv02">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>180</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia00">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>180</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_63">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>160</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv10">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>210</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_64">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>160</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_inv21">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>240</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Inversa">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_Ia12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Metodo Adjunto</string>
+    </attribute>
+    <widget class="QLabel" name="label_66">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>METODO ADJUNTO.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_MetodoAdj">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_6">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj00">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj10">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj22">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj02">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj12">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj20">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_72">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>150</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj21">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_73">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>120</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_74">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj11">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcAdj01">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_75">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_76">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_77">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_78">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_79">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_80">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_81">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_82">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_83">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_84">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_85">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_86">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcMb10">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcMb20">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcMb00">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_87">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>340</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_88">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>400</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_89">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>370</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_90">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_91">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>320</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_Mc20">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>400</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_Mc00">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>340</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_Mc10">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>370</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Cramer</string>
+    </attribute>
+    <widget class="QLabel" name="label_67">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>20</y>
+       <width>651</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>METDO CRAMER.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_MetodoCramer">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Calcular</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_limpiar3_7">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>420</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Limpiar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_rCramer10">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>370</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_92">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS20">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_93">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS10">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS12">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcC00">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_rCramer00">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>340</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_94">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_95">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_96">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>200</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcC20">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_97">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>320</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcC10">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_98">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_rCramer20">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>400</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_99">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>370</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_100">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>150</y>
+       <width>81</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS01">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_101">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>120</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Matriz A </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_102">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_103">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>=</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_104">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS00">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_105">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_106">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>340</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS21">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_107">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>230</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_108">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS02">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>170</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_109">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>400</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS22">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>230</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_110">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>320</y>
+       <width>61</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap>cerrar-parentesis.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_EcS11">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>200</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 232, 115);
+color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_111">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>170</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>501</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Operaciones de matrices.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>0</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>logo2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>10</y>
+     <width>111</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>logo.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Con esta calculadora podrás calcular un determinante, un rango, una suma de matrices, un producto de matrices, una matriz inversa y otros..png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>110</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>122</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>195</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_A22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>687</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>613</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>660</x>
+     <y>619</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>491</x>
+     <y>385</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>474</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>669</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>641</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>551</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>639</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_B21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>682</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>527</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>303</x>
+     <y>570</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>586</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>622</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>530</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>686</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>600</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>540</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>455</x>
+     <y>570</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_Limpiar</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_AB22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>707</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>600</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>639</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>105</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>111</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>631</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>187</x>
+     <y>420</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>643</x>
+     <y>650</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>242</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_a22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>679</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>536</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>645</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>650</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>592</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>647</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>592</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>420</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>674</x>
+     <y>651</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>428</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_ab22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>593</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>705</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>707</x>
+     <y>639</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>628</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>648</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>422</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>540</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>669</x>
+     <y>649</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>609</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>662</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_b22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>645</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>613</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>643</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>113</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>627</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>170</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>420</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>622</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>633</x>
+     <y>646</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ma22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>532</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>642</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>284</x>
+     <y>560</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>648</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>301</x>
+     <y>599</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>622</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>566</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>649</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>371</x>
+     <y>592</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_abm22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>443</x>
+     <y>592</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>568</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>621</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>704</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>465</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>545</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>710</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>609</x>
+     <y>420</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>473</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>709</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>541</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_mb22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>705</x>
+     <y>631</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>620</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>645</x>
+     <y>624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>95</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>108</x>
+     <y>422</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>635</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>627</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>647</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>172</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>183</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_ta22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>254</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>382</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>469</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>482</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>635</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>618</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>553</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>640</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>607</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>690</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_at22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>628</x>
+     <y>441</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>634</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>392</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>392</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_3</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_da22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>392</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>627</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>106</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>635</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>95</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>618</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>630</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>170</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>420</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>648</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>246</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ma22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>627</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>469</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>458</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>622</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>622</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>622</x>
+     <y>385</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>591</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_4</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_adj22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>617</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>102</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>107</x>
+     <y>420</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>96</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>640</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>165</x>
+     <y>381</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>639</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>416</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>451</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>644</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_Ia22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>641</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>471</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>674</x>
+     <y>619</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>481</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>627</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>472</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>683</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>532</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>535</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>607</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_5</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_inv22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>685</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>617</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>662</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>630</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>235</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>309</x>
+     <y>433</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>658</x>
+     <y>638</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>407</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcAdj22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcMb00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>681</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>510</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcMb10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcMb20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>691</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>536</x>
+     <y>433</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_Mc00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>643</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>550</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_Mc10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>573</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_6</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_Mc20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_rCramer00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>635</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>548</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_rCramer10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>650</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>lbl_rCramer20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>645</x>
+     <y>625</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>605</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcC00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>647</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcC10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcC20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>519</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS00</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>680</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>216</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS10</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>679</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>223</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS20</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS01</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>381</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS11</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>302</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS21</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS02</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>628</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>409</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS12</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_limpiar3_7</sender>
+   <signal>clicked()</signal>
+   <receiver>txt_EcS22</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>692</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>403</x>
+     <y>434</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
